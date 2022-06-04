@@ -29,7 +29,8 @@ jobs:
           - name: "安装依赖包"
             run: 
               python -m pip install --upgrade pip
-              pip install secrets,requests
+              pip install secrets
+              pip install requests
 
 
           - name: "运行 小活儿抢单脚本"
